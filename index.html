@@ -27,17 +27,17 @@
 
                      <div class="col-md-5 center-item">
                         <div class="input-group number-spinner">
-                           <button class="btn btn-default"><i class="fas fa-minus"></i></button>
-                           <input type="number" min="0" class="form-control text-center" value="1">
-                           <button class="btn btn-default"><i class="fas fa-plus"></i></button>
+                           <button id="iphone-remove-btn" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="input-field" type="number" min="0" class="form-control text-center" value="1">
+                           <button  class="btn btn-default"><i id="iphone-add-btn" class="fas fa-plus"></i></button>
                         </div>
-                        <h5>$1219</h5>
+                        <h5>$ <span id="phone-price">1200</span> </h5>
                         <img src="images/remove.png" alt="" class="remove-item">
                      </div>
                   </div>
                </div>
 
-               <div class="cart-item">
+               <div class="cart-item ">
                   <div class="row">
                      <div class="col-md-7 center-item mx-auto">
                         <img src="images/product-2.png" alt="">
@@ -79,6 +79,8 @@
          </div>
       </div>
    </section>
+
+   <script src="./js/shop.js"></script>
 </body>
 
 </html>
